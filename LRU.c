@@ -1,3 +1,4 @@
+// Program for least recently used algorithm
 #include<stdio.h>
 int min_find(int n,int *t){
 	int min=0,i;
