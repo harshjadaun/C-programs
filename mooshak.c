@@ -1,3 +1,9 @@
+/* Mooshak mouse has been placed in a maze. There is a huge chunk of cheese somewhere in maze. The maze is represented as 2D array
+   of integers, where 0 represents walls, 1 represents paths where mooshak can move and 9 represents huge chunk of cheese. Mooshak
+   starts in topleft corner at 0.
+   Write a program to determine if Mooshak can reach huge chunk of cheese. The input is path consists of 2D array grid maze matrix.
+   Mooshak can move in right direction or down the maze.
+*/   
 #include<stdio.h>
 int top=-1,stack_x[20],stack_y[20];
 void push(int m,int n){
