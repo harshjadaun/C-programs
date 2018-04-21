@@ -1,3 +1,4 @@
+// matrix whose sum of rows or columns are equal
 #include<stdio.h>
 void main(){
 	int n,i,j,a[10][10]={0},number=1,r,c;
