@@ -1,0 +1,7 @@
+1) If you want to scan digits from a number separately then,
+  use: scanf("%xd",&var);
+       where x is any integer value.
+      e.g. scanf("%1d",&n);
+      if n= 1234 then it will scan 1 2 3 4 as four values.
+      e.g. scanf("%2d",&n);
+      if n= 2345 then it will scan 23 45 as two values.
